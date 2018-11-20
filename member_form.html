@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min2.css">
+	
+</head>
+<style>
+    body {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      /*
+      background-image:url(img/pet5.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      */
+    }
+    .form-membership {
+        max-width: 550px;
+        padding: 40px;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        font-size: 20px;
+        /*
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+        */
+    }
+    
+</style>
+<body>
+    <div class="container">
+       <form class="form-membership" action="member.php" method="post">
+           	<h2>회원가입</h2>
+                  <br><hr>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                   <div class="form-group">
+                    <label for="exampleInputId">Id</label>
+                    <input type="id" class="form-control" name="id" id="exampleInputId" placeholder="Id">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" name="pw" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                   <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input type="name" class="form-control" name="name" id="exampleInputName" placeholder="Name">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">가입하기</button>
+                  <button type="button" onclick="location.href='login_form.html'" class="btn btn-primary btn-lg">이전으로</button>
+        </form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,289 @@
+
+.figure{ margin:0px;}
+
+img{ max-width:100%;}
+
+a, a:hover, a:active{ outline:0px !important}
+
+/* Primary Styles
+---------------------------------*/
+body {
+	background:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#888888;
+	margin:0;
+}
+
+
+.main-section h2{
+    font-size: 40px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
+
+.main-section h4{
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+    margin-bottom: 20px;
+}
+p{
+	line-height:24px;
+	margin:0;
+}
+
+/* Header Styles
+---------------------------------*/
+
+.header{
+	text-align:center;
+    background:url(../img/pet5.png);
+	padding:235px 0;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+	width:130px;
+	margin:0 auto 35px;
+}
+.header h1{
+	font-family:'Montserrat',sans-serif;
+	font-size:60px;
+	font-weight:500;
+	letter-spacing: -1px;
+	margin:0 0 22px 0 ;
+	color:#222222;
+}
+
+.we-create{
+	padding:0;
+	margin:35px 0 55px;
+}
+.wp-pic{
+	margin-bottom:20px;
+}
+.we-create li{
+	display:inline-block;
+	font-family: 'Montserrat',sans-serif;
+	 font-size: 20px;
+	color: #bcbcbc;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin:0 5px 0 0;
+	padding:0 0 0 15px;
+}
+.we-create li:first-child{
+	background:none;
+}
+
+.start-button {
+	padding-left: 0px;
+}
+
+.start-button li a{
+color: #fff;
+}
+
+
+.link{
+	padding:15px 35px;
+	margin-bottom:20px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+
+/* Navigation
+---------------------------------*/
+.main-nav-outer{
+	padding:0px;
+	border-bottom:1px solid #dddddd;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
+	background:#fff;
+}
+.main-nav{
+	text-align:center;
+	margin:8px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+}
+.main-nav li a{
+	display:inline-block;
+	color:#222222;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:17px 18px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover{ 
+	text-decoration:none;
+	color: darkorange;
+}
+
+.small-logo{ 
+	padding:0 32px;
+}
+
+.main-section{
+	padding:90px 0 115px;
+}
+
+
+/* Services
+---------------------------------*/
+
+.service-list{
+	padding:0 0 0 0;
+	font-size:14px;
+}
+.row .service-list{
+    margin-top: 60px;
+}
+.row figure{
+    margin-top: 60px;
+}
+
+/* Featured Work
+---------------------------------*/
+.featured-work{
+	font-size:14px;
+    margin-top: 50px;
+    margin-bottom:40px;
+}
+.featured-work h2{
+	text-align:left;
+}
+.featured-box{
+	padding:0 0 0 0;
+	margin-bottom:40px;
+	font-size:14px;
+    margin-top: 60px;
+}
+.featured-box h3{
+	margin-bottom:5px;
+}
+.featured-box p{
+	line-height:22px;
+}
+.featured-work p.padding-b{
+	padding-bottom:35px;
+}
+
+
+
+/* Portfolio
+---------------------------------*/
+
+.portfolioContainer{
+	margin:0 auto;
+	padding-left:15px;
+    margin-top: 30px;
+    margin-bottom: 570px;
+}
+
+.Portfolio-box img{
+	margin-bottom:20px;
+	height:250px;
+	width:350px;
+	float:left;
+	padding:10px;
+}
+
+.Portfolio-box img:hover {
+	opacity: 0.6;
+}
+
+img {
+   max-width:100%;
+}
+
+/* Footer
+---------------------------------*/
+
+.footer{
+	background:#222222 left top repeat;
+	padding:35px 0 35px;
+}
+.footer-logo{
+	margin:15px auto 35px;
+	width: 76px;
+}
+.copyright, .credits{
+	color:#cccccc;
+	font-size:14px;
+	display:block;
+	text-align:center;
+}
+.copyright a, .credits a{
+	color:coral;
+	font-weight:600;
+	text-decoration: none;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.copyright a:hover, .credits a:hover {
+	color: #fff;
+}
+.portfolioContainer{
+	max-width: 1100px;
+}
+
+
+/* Animation Timers
+---------------------------------*/
+
+.delay-07s { 
+	animation-delay: 0.7s; 
+	-webkit-animation-delay: 0.7s; 
+}
+.delay-1s { 
+	animation-delay: 1s; 
+	-webkit-animation-delay: 1s; 
+}
+
+/* main.php menubar */
+
+.main-nav li ul{
+    display: none;
+    background-color: white;
+    /*
+    position: absolute;
+    margin-left: 920px;
+    */
+}
+
+/*
+.main-nav li:hover ul{
+    display: flex;
+    flex-direction: column;
+}
+*/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min2.css">
+	
+</head>
+<style>
+    body {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      /*
+      background-image:url(img/pet5.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      */
+    }
+    .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .form-signin.form-control:focus {
+      z-index: 2;
+    }
+    .form-signin input[type="id"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="password"] {
+      margin-bottom: 20px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .button{
+        margin-left: 80px;
+    }
+    .logo{
+        margin-left: 35px;
+    }
+    
+</style>
+<body>
+    <div class="container">
+       <form class="form-signin" action="login.php" method="post">
+           	<figure class="logo">
+				<a href="index.html"><img src="img/dog.png" class="mx-auto d-block"></a>
+			</figure><br>
+            <h1 class="text-sm-center">PIT PET</h1>
+            <p class="text-sm-center">반려동물을 위한 복합 문화 공간 핏펫</p><br>
+            <div class="button">
+                <button type="button" class="btn btn-outline-primary btn-lg " onclick="location.href='member_form.html'">회원가입</button>
+                <button type="button" class="btn btn-outline-primary btn-lg "  onclick="location.href='index.html'" >바로가기</button>
+            </div>
+            <br><br>
+            <hr>
+            <br>
+            <input type="id" id="inputId" class="form-control" placeholder="아이디" name="id" required autofocus>
+            <input type="password" id="inputPassword" class="form-control" name="pw" placeholder="패스워드" required autofocus>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">로그인</button>
+        </form>
+	</div>
+</body>
+</html>
